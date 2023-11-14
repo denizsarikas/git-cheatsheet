@@ -45,5 +45,12 @@ less cat veya vimle falan acabiliriz// less /Users/deniz/.gitconfig
 -
 git config --unset [silmek istediğin şey  dosyaya girmeden] //oncelikle localdekini siliyor aynı değer oldugu zaman --global diye belirtmediğin surece 
 -
-checkout, reset, revert 
+checkout, reset, revert
+
+git stash save -u ---> untracked dosyalarla birlikte stash 'e ekler, otomatik mesaj ile kaydedilir.
+git stash save -u -m "Message" ---> untracked dosyalarla birlikte stash 'e ekler, yazılmış mesaj ile birlikte kaydedilir.
+git stash pop ---> stash listesine en son ekleneni hem stash 'ten siler hemde getirir.
+git stash apply 2 ---> istenen index numarasıyla pop teriminin aksine silmeden getirir. 
+git stash drop 1 ---> verilen index değerindekini stash list içerisinden uçurur.
+git stash list ---> stash listesini gösterir.
 
