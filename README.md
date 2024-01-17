@@ -68,5 +68,12 @@ git push //error vericek
 -
 git push --set-upstream origin defect/BWEB-5694
 -
+gst //git status kısaltması
+-
+
+git commit --amend --no-edit
+git push -f //git commitine dahil etmek istediğin şeyler için uygulanan akış
+-
+
 
 
